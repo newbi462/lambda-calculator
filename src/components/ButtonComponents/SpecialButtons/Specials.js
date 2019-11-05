@@ -14,7 +14,7 @@ export const Specials = ( {propPass}  ) => {
        component matching the name on the provided file. Pass
        it any props needed by the child component*/}
        {propPass.map(function(item) {
-         return <button>{item}</button>;
+         return <button className="specButton">{item}</button>;
        })}
     </>
   );
