@@ -43,7 +43,7 @@ function App() {
 
         <div className="buttonbox">
           <div className="left-container">
-            <SpecialButton />
+            <SpecialButton portToButtonsPropPass={portToButtons} />
             <NumberButton portToButtonsPropPass={portToButtons} />
           </div>
           <div className="right-container">
