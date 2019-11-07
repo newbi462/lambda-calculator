@@ -4,10 +4,10 @@
     max-width: 550px;
     border-radius: 15px;
     border: 2px solid grey;
-    padding-bottom: 25px;
+    padding-bottom: 15px;
 }
 .display {
-    margin-top: 25px;
+    margin: 25px auto 0 auto;
     height: 100px;
     width: 450px;
     border-radius: 50px;
@@ -20,3 +20,58 @@
     padding-right: 8%;
     font-size: 5.0rem;
   }
+
+/*STYLE IT*/
+.logo-container {
+  margin: 25px 35px;
+}
+
+
+.buttonbox {
+  display: flex;
+  width: 500px;/*to match display*/
+  margin: 25px auto;
+  box-sizing: border-box;
+}
+
+.left-container {
+  width: 75%;
+  display: flex;
+  flex-flow: wrap;
+  box-sizing: border-box;
+}
+.left-container button {
+  width: 28%;
+  border-radius: 50%;
+  height: 100px;
+  font-size: 2.0rem;
+  margin: 10px;
+  box-sizing: border-box;
+  color: white;
+  background: #184379;
+  border: 1px solid black;
+}
+.left-container .but0 {
+  width: 61%;
+  border-radius: 50px;
+}
+.left-container .specButton {
+  background: #225d9e;
+}
+
+.right-container {
+  width: 25%;
+  display: flex;
+  flex-flow: column;
+}
+.right-container button {
+/*  width: 28%;*/
+  border-radius: 50%;
+  height: 100px;
+  font-size: 2.0rem;
+  margin: 10px;
+  box-sizing: border-box;
+  color: white;
+  background: #237293;
+  border: 1px solid black
+}
